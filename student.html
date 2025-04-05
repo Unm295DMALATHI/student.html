@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    </head>
+    <style>
+    {
+            background-color: aqua;
+            text-align: justify;
+            font-style: oblique;
+
+
+        }
+
+
+        
+    </style>
+
+<body>
+    
+<script>
+var studentreg=parseInt(prompt("enter the reg"));
+var studentname=prompt("enter the name");
+var tamil=parseInt(prompt("enter the tamil"));
+var english=parseInt(prompt("enter the english"));
+var maths=parseInt(prompt("enter the maths"));
+var science=parseInt(prompt("enter the science"));
+var social=parseInt(prompt("enter the social"));
+var total=(tamil+english+maths+science+social);
+var percentage=(total*100/500.0);
+document.write("studentreg=:"+studentreg+"<br>");
+document.write("studentname=:"+studentname+"<br>");
+document.write("total=:"+total+"<br>")
+document.write("percentage=:"+percentage+"<br>")
+
+
+if(percentage>90)
+{
+  alert (grade="A");
+
+}
+else if(percentage>80<90)
+{
+  alert (grade="B");
+
+}
+
+else if(percentage>70<80)
+{
+   alert(grade="C");
+}
+
+else if(percentage>60<70)
+{
+    alert(grade="D");
+}
+else if(percentage>50<60)
+{
+ alert (grade="E");
+}
+else if(percentage>35<50)
+{
+   ( grade="F");
+}
+else
+{
+  alert (grade="fail")
+}
+
+
+</script>
+</body>
+</html>
